@@ -118,6 +118,7 @@ func main() {
 		}
 
 		//go handle()
+		//check
 		db, err := sql.Open("mysql", "root:xxxx@tcp(127.0.0.1:3306)/test2")
 		if err != nil {
 			panic(err.Error()) // Just for example purpose. You should use proper error handling instead of panic
